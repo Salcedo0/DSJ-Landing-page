@@ -1,6 +1,6 @@
 // Contact.jsx
 import React, { useState } from 'react';
-import './Contact.css';
+import './Styles/Contact.css';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -57,15 +57,15 @@ const Contact = () => {
             <div className="contact-details">
               <div className="contact-item">
                 <i className="fas fa-envelope"></i>
-                <p>info@dsjtechsolutions.com</p>
+                <p>vivialexxa@gmail.com</p>
               </div>
               <div className="contact-item">
                 <i className="fas fa-phone"></i>
-                <p>+1 (555) 123-4567</p>
+                <p>+57 (300) 7897419</p>
               </div>
               <div className="contact-item">
                 <i className="fas fa-map-marker-alt"></i>
-                <p>Ciudad de México, México</p>
+                <p>Medellin Antioquia ,Colombia</p>
               </div>
             </div>
           </div>

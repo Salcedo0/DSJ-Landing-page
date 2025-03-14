@@ -1,6 +1,6 @@
 // Services.jsx
 import React from 'react';
-import './Services.css';
+import './Styles/Services.css'; 
 import { FaCode, FaLayerGroup, FaTasks, FaUsers, FaPlug } from 'react-icons/fa';
 
 const Services = () => {

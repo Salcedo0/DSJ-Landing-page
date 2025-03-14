@@ -1,6 +1,6 @@
 // MissionVision.jsx
 import React from 'react';
-import './MissionVision.css';
+import './Styles/MissionVision.css';
 
 const MissionVision = () => {
   return (

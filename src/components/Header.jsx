@@ -1,6 +1,6 @@
 // Header.jsx
 import React, { useState } from 'react';
-import './Header.css';
+import './Styles/Header.css';
 import logo from '../assets/DSJTECH2.svg'; // el logo de DSJ Tech Solutions
 
 const Header = () => {
