@@ -1,0 +1,110 @@
+/* About.css */
+.about {
+    padding: 4rem 2rem;
+    background-color: white;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+  
+  .about-text {
+    flex: 1;
+  }
+  
+  .about-text h2 {
+    font-size: 2.2rem;
+    color: #1a2641;
+    margin-bottom: 1.5rem;
+  }
+  
+  .about-text p {
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+  }
+  
+  .hexagon-grid {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 400px;
+    position: relative;
+  }
+  
+  .hexagon {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(46, 86, 180, 0.1);
+    position: relative;
+    margin: 15px;
+  }
+  
+  .hexagon:before,
+  .hexagon:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+  }
+  
+  .hexagon:before {
+    bottom: 100%;
+    border-bottom: 43px solid rgba(46, 86, 180, 0.1);
+  }
+  
+  .hexagon:after {
+    top: 100%;
+    border-top: 43px solid rgba(46, 86, 180, 0.1);
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 992px) {
+    .about-content {
+      flex-direction: column;
+    }
+    
+    .hexagon-grid {
+      margin-top: 2rem;
+    }
+    
+    .hexagon {
+      width: 120px;
+      height: 120px;
+    }
+    
+    .hexagon:before,
+    .hexagon:after {
+      border-left: 60px solid transparent;
+      border-right: 60px solid transparent;
+    }
+    
+    .hexagon:before {
+      border-bottom: 35px solid rgba(46, 86, 180, 0.1);
+    }
+    
+    .hexagon:after {
+      border-top: 35px solid rgba(46, 86, 180, 0.1);
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .about {
+      padding: 3rem 1rem;
+    }
+    
+    .about-text h2 {
+      font-size: 1.8rem;
+    }
+  }
