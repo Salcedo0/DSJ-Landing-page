@@ -40,7 +40,7 @@ const Footer = () => {
             <div className="footer-column">
               <h4>Contáctanos</h4>
               <ul className="contact-list">
-                <li><i className="fas fa-envelope"></i> vivialexxa@gmail.com</li>
+                <li><i className="fas fa-envelope"></i>contacto@dsjtechsolutions.com</li>
                 <li><i className="fas fa-phone"></i> +57 300 7897419</li>
                 <li><i className="fas fa-map-marker-alt"></i> Medellin, Colombia</li>
               </ul>
@@ -50,11 +50,6 @@ const Footer = () => {
         
         <div className="footer-bottom">
           <p>&copy; {new Date().getFullYear()} DSJ Tech Solutions. Todos los derechos reservados.</p>
-          {/* <div className="social-icons">
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
-          </div> */}
         </div>
       </div>
     </footer>
