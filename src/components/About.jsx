@@ -1,6 +1,7 @@
 // About.jsx
 import React from 'react';
 import './Styles/About.css';
+import logo from '../assets/DSJTECH2.svg';
 
 const About = () => {
   return (
@@ -20,10 +21,8 @@ const About = () => {
               seguridad y alto rendimiento en cada solución.
             </p>
           </div>
-          <div className="hexagon-grid">
-            <div className="hexagon"></div>
-            <div className="hexagon"></div>
-            <div className="hexagon"></div>
+          <div className="about-image">
+            <img src={logo} alt="DSJ Tech Solutions Logo" className='imagen-dsj' />
           </div>
         </div>
       </div>

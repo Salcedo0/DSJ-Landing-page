@@ -13,11 +13,13 @@
   .logo-container {
     display: flex;
     align-items: center;
+    letter-spacing: 2px;
   }
   
   .logo {
-    height: 50px;
-    margin-right: 10px;
+    height: 100px;
+    margin-right: -20px;
+
   }
   
   .logo-text {

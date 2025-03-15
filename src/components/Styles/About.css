@@ -32,41 +32,10 @@
     margin-bottom: 1.5rem;
   }
   
-  .hexagon-grid {
-    flex: 1;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 400px;
-    position: relative;
-  }
-  
-  .hexagon {
-    width: 150px;
-    height: 150px;
-    background-color: rgba(46, 86, 180, 0.1);
-    position: relative;
-    margin: 15px;
-  }
-  
-  .hexagon:before,
-  .hexagon:after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-left: 75px solid transparent;
-    border-right: 75px solid transparent;
-  }
-  
-  .hexagon:before {
-    bottom: 100%;
-    border-bottom: 43px solid rgba(46, 86, 180, 0.1);
-  }
-  
-  .hexagon:after {
-    top: 100%;
-    border-top: 43px solid rgba(46, 86, 180, 0.1);
+  .imagen-dsj{
+    width: 400px;
+    height: 500px;
+
   }
   
   /* Responsive styles */
