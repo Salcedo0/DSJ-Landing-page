@@ -1,7 +1,7 @@
 // Header.jsx
 import React, { useState } from 'react';
 import './Styles/Header.css';
-import logo from '../assets/DSJTECH2.svg'; // el logo de DSJ Tech Solutions
+import logo from '../assets/DSJTECH4.svg'; // el logo de DSJ Tech Solutions
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);

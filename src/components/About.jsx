@@ -1,7 +1,7 @@
 // About.jsx
 import React from 'react';
 import './Styles/About.css';
-import logo from '../assets/DSJTECH2.svg';
+import logo from '../assets/DSJTECH3.svg';
 
 const About = () => {
   return (
