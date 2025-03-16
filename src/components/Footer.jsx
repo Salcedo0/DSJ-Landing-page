@@ -1,7 +1,7 @@
 // Footer.jsx
 import React from 'react';
 import './Styles/Footer.css';
-import logo from '../assets/DSJTECH2.svg'; // el logo de DSJ Tech Solutions
+import logo from '../assets/DSJTECH4.svg'; // el logo de DSJ Tech Solutions
 
 const Footer = () => {
   return (
