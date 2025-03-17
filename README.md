@@ -1,12 +1,28 @@
-# React + Vite
+# DSJ Tech Solutions Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una página web construida usando **Vite + React**, destacando por su rendimiento rápido y eficiente desarrollo. El diseño enfatiza claridad, profesionalismo y experiencia de usuario intuitiva.
 
-Currently, two official plugins are available:
+## Tecnologías Principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React** con **Vite** para una carga rápida y optimizada.
+- **CSS** para estilos ágiles y escalables.
+- Componentes reutilizables y fáciles de mantener, mostrando asi buenas practicas
 
-## Expanding the ESLint configuration
+## Aspectos Destacados del Diseño
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Diseño minimalista y limpio con enfoque profesional.
+- Paleta de colores muy sobria y elegante para proyectar confianza, a peticion del cliente.
+- Secciones claras que facilitan la navegación e interacción del usuario.
+
+## Vistas de Referencia
+
+### Inicio
+![Vista Inicio](ruta_a_tu_imagen_inicio.png)
+
+### Servicios
+![Vista Servicios](ruta_a_tu_imagen_servicios.png)
+
+### Contacto
+![Vista Contacto](ruta_a_tu_imagen_contacto.png)
+
+Este proyecto refleja una experiencia digital fluida orientada a impulsar negocios mediante soluciones tecnológicas.
