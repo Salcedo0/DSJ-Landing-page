@@ -17,12 +17,12 @@ Este proyecto es una página web construida usando **Vite + React**, destacando 
 ## Vistas de Referencia
 
 ### Inicio
-![Vista Inicio](ruta_a_tu_imagen_inicio.png)
+![Vista Inicio](Img_de_muestra\imagen1DSJ.png)
 
 ### Servicios
-![Vista Servicios](ruta_a_tu_imagen_servicios.png)
+![Vista Servicios](Img_de_muestra\imagen2DSJ.png)
 
 ### Contacto
-![Vista Contacto](ruta_a_tu_imagen_contacto.png)
+![Vista Contacto](Img_de_muestra\Imagen3DSJ.png)
 
 Este proyecto refleja una experiencia digital fluida orientada a impulsar negocios mediante soluciones tecnológicas.
