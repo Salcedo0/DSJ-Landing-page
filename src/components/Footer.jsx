@@ -3,6 +3,8 @@ import React from 'react';
 import './Styles/Footer.css';
 import logo from '../assets/DSJTECH4.svg'; // el logo de DSJ Tech Solutions
 
+
+//hacer cambios al footer, para que se vea mejor y arreglar la parte de los enlaces para linkear las redes sociales
 const Footer = () => {
   return (
     <footer className="footer">

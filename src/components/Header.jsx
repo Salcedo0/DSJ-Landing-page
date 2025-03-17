@@ -28,10 +28,10 @@ const Header = () => {
       
       <nav className={`main-nav ${menuOpen ? 'active' : ''}`}>
         <ul>
-          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#inicio">Inicio</a></li>  {/*cambiar el navbar, para hacerlo que cambie de color al hacer scroll*/}
           <li><a href="#servicios">Servicios</a></li>
           <li><a href="#quienes-somos">Quiénes Somos</a></li>
-          <li><a href="#mision-vision">Misión y Visión</a></li>
+          <li><a href="#mision-vision">Misión y Visión</a></li> 
           <li><a href="#contacto" className="contact-button">Contáctanos</a></li>
         </ul>
       </nav>

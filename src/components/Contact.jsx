@@ -1,7 +1,7 @@
 // Contact.jsx
 import React, { useState } from 'react';
 import './Styles/Contact.css';
-
+//en la parte de contactanos debo hacer que se envie un mensaje al correo de la empresa
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
